@@ -28,10 +28,8 @@ text-align: center;
 }
 #inicioBtn {
 padding:10px 20px;
-font-size: 1.5em;
-border: #2005ec;
 border-radius: 4px;
-background-color: rgb(68, 140, 228);
+
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 transition: background 0.3s, transform 0.2s;
 }
@@ -141,9 +139,9 @@ transition: background 0.3s, transform 0.2s;
     font-size: 1.2em;
     border: none;
     border-radius: 4px;
-    background-color: #2905ba;
+    
     color: #0f100f;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
     transition: background 0.3s, transform 0.2s;
 }
 #volver :hover {

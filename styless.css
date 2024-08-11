@@ -1,0 +1,140 @@
+body { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background:url(img/fondoM.jpg);
+    background-size:cover;
+    margin: 0; 
+    padding: 0;
+    
+}
+.inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background:url(img/inicio.jpg);
+    background-size: cover;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 4px;
+}
+.inicio h1 {
+color: #0f100f ;
+margin-bottom: 10px 30px 600px 400px;
+height: 250px;
+font-size: 24px; 
+text-align: center;
+}
+#inicioBtn {
+padding:10px 20px;
+font-size: 1.5em;
+border: #2005ec;
+border-radius: 4px;
+background-color: rgb(68, 140, 228);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+transition: background 0.3s, transform 0.2s;
+}
+#inicioBtn :hover {
+    background-color: #6d0944;
+    transform: translateY(-2px);
+    padding-left: 80px;
+}
+.container { 
+    background:url(img/ultima.gif);
+    background-size: cover;
+    margin: 10px; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 15px rgba(234, 50, 191, 0.904);
+    color: yellow; 
+    
+}
+
+.question {
+   
+    font-size: 20px; 
+  text-align: center;
+    color: #f507dd;
+    
+}
+
+.options button { 
+    display: block; 
+    margin: 10px auto; 
+    padding: 10px; 
+    width: 100%; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    font-size: 16px;
+    padding-left: 80px;
+    background-color: #d47ae6; 
+    color: rgb(12, 12, 12);
+    box-shadow: 0 4px 8px rgba(249, 7, 144, 0.793);
+    transition: background 0.3s, transform 0.2s;
+}
+
+.options button:hover { 
+    background-color: #188ae2f0; 
+    transform: translateY(-2px);
+    
+   
+}
+
+#progress-bar { 
+    background: #5c8cf2; 
+    height: 15px; 
+    margin: 10px 0; 
+    border-radius: 4px; 
+    overflow: hidden; 
+}
+
+#progress-bar span { 
+    display: block; 
+    height: 100%; 
+    background: #1103ca; 
+    width: 0%; 
+    transition: width 0.5s; 
+}
+@media (max-width: 600px){
+    .inicio{
+        padding: 20px;
+        margin: 10px;
+    }
+    .inicio h1 {
+        font-size: 20px;
+    }
+    #inicioBtn{
+        padding: 10px;
+        font-size: 1.2em;
+    }
+    .container {
+        padding: 10px;
+    }
+    .question {
+        font-size:  18px;
+    }
+    .options button {
+        font-size: 14px;
+    }
+    #progress-bar {
+        height: 10px;
+    }
+}
+
+.result-text { 
+    font-size: 20px; 
+    text-align: center; 
+    color: #038982;
+}
+
+#score-text {
+font-size: 24px;
+font-weight: bold;
+color: #2905ba;
+margin: 20px 0;
+}
+
+#score-percentage {
+    color: rgb(245, 21, 21);
+}

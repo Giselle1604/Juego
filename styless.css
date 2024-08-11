@@ -17,12 +17,13 @@ body {
     margin: 20px;
     padding: 50px;
     border-radius: 4px;
+    text-align: center;
 }
 .inicio h1 {
 color: #0f100f ;
-margin-bottom: 10px 30px 600px 400px;
+margin-bottom: 20px;
 height: 250px;
-font-size: 24px; 
+font-size: 35px; 
 text-align: center;
 }
 #inicioBtn {
@@ -37,22 +38,24 @@ transition: background 0.3s, transform 0.2s;
 #inicioBtn :hover {
     background-color: #6d0944;
     transform: translateY(-2px);
-    padding-left: 80px;
+
 }
 .container { 
     background:url(img/ultima.gif);
     background-size: cover;
     margin: 10px; 
     padding: 20px; 
+    height: 500px;
     border-radius: 8px; 
     box-shadow: 0 0 15px rgba(234, 50, 191, 0.904);
     color: yellow; 
+    font-size: 30px;
     
 }
 
 .question {
    
-    font-size: 20px; 
+    font-size: 29px; 
   text-align: center;
     color: #f507dd;
     
@@ -109,7 +112,9 @@ transition: background 0.3s, transform 0.2s;
         font-size: 1.2em;
     }
     .container {
-        padding: 10px;
+        padding: 20px;
+        height: 500px;
+      
     }
     .question {
         font-size:  18px;
@@ -128,6 +133,23 @@ transition: background 0.3s, transform 0.2s;
     color: #038982;
 }
 
+#volver {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 4px;
+    background-color: #2905ba;
+    color: #0f100f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s, transform 0.2s;
+}
+#volver :hover {
+    background-color: #5c8cf2;
+    transform: translateY(-2px);
+}
 #score-text {
 font-size: 24px;
 font-weight: bold;

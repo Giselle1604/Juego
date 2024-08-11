@@ -108,6 +108,14 @@ function showResult() {
 
     document.getElementById('result').style.display ='block';
     document.getElementById('question-container').style.display = 'none';
+
 }
+document.getElementById('volver').addEventListener('click', function(){
+    document.getElementById('result').style.display = 'none';
+document.querySelector('.container').style.display = 'none';
+document.getElementById('inicio').style.display = 'block';
+currentQuestion =0;
+correctAnswers =0;
+})
 
 window.onload = loadQuestion;
